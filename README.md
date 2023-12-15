@@ -17,7 +17,8 @@ Before starting, ensure you have installed:
 - [Rust and Cargo](https://www.rust-lang.org/tools/install)
 - [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
 - [Trunk](https://trunkrs.dev/#install) (optional, for building and bundling)
-
+- Windows SDK (for development on Windows)
+  
 ## Project Structure
 
 - `src/main.rs`: Main entry point for the Yew application
@@ -42,3 +43,28 @@ stylist = "0.10"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
+```
+
+## Build and Run
+
+To build and run the application:
+
+1. Navigate to the project directory.
+2. Use `trunk serve` (if using Trunk) or `wasm-pack build` (if using wasm-pack).
+
+## Contributing
+
+Contributions are welcome. Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Commit changes.
+4. Push to your branch.
+5. Open a pull request.
+
+## License
+
+This project is under the [MIT License](LICENSE).
+
+
+
