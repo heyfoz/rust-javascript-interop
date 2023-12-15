@@ -12,7 +12,7 @@ use js_sys::JsString; // For handling JavaScript strings in Rust
 // For example:
 // use your_crate::styles::global_sty::global_style;
 // use your_crate::route::{switch, Route};
-// use your_crate::contexts::texts_provider::TextsProvider;
+// use your_crate::contexts::text_provider::TextProvider;
 
 // Inline JavaScript function example
 // This function is written in JavaScript and embedded directly in Rust.
