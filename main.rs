@@ -48,17 +48,10 @@ pub fn app() -> Html {
 
     html! {
         <>
-        // Replace this section with your context provider and router setup
-        // This is where you would integrate components like TextsProvider (for context management)
-        // and BrowserRouter (for handling client-side routing).
-        // <TextsProvider>
-        //     <BrowserRouter>
-        //         <Global css={global_style()} />
-        //         <Switch<Route> render={switch} />
-        //     </BrowserRouter>
-        // </TextsProvider>
-
-        // Your Yew app components would be rendered here
+            <BrowserRouter>
+                <Global css={/* global_style() */} />
+                <Switch<Route> render={switch} />
+            </BrowserRouter>
         </>
     }
 }
