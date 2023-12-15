@@ -8,9 +8,9 @@ use wasm_bindgen::prelude::*;
 use js_sys::JsString; // For handling JavaScript strings in Rust
 
 // Define your app's global style, route switch, and contexts here. For example:
-use yew_javascript_interop_example::global_style::global_style;
-// use your_crate::route::{switch, Route};
-// use your_crate::contexts::text_provider::TextProvider;
+// use yew_javascript_interop_example::global_style::global_style;
+// use yew_javascript_interop_example::route::{switch, Route};
+// use yew_javascript_interop_example::contexts::text_provider::TextProvider;
 
 // Inline JavaScript function example
 // This function is written in JavaScript and embedded directly in Rust.
