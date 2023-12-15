@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a basic Rust web application using the Yew framework. It focuses on JavaScript-Rust interop for session ID retrieval, demonstrating how to retrieve a session ID from the URL using both inline JavaScript and an external JavaScript file. NOTE: Dependencies and packages may change over time.
+This project is a basic Rust client-side web application using the Yew framework. It focuses on JavaScript-Rust interop for session ID retrieval, demonstrating how to retrieve a session ID from the URL using both inline JavaScript and an external JavaScript file. NOTE: Dependencies and packages may change over time.
 
 ## Features
 
