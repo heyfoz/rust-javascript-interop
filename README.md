@@ -22,7 +22,7 @@ Before starting, ensure you have installed:
 ## Project Structure
 
 - `src/main.rs`: Main entry point for the Yew application
-- `src/session.js`: External JavaScript file for session ID retrieval
+- `/session.js`: External JavaScript file for session ID retrieval
 
 ## Dependencies
 
