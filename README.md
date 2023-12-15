@@ -26,7 +26,7 @@ Before starting, ensure you have installed:
 
 ## Dependencies
 
-Add these and any other relevant dependencies in your `Cargo.toml`:
+Add these and any other relevant dependencies in your `Cargo.toml`, naming your package according to your project:
 
 ```toml
 [package]
