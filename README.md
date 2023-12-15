@@ -17,7 +17,7 @@ Before starting, ensure you have installed:
 - [Rust and Cargo](https://www.rust-lang.org/tools/install)
 - [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
 - [Trunk](https://trunkrs.dev/#install) (optional, for building and bundling)
-- Windows SDK (for development on Windows)
+- [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk) (for development on Windows)
   
 ## Project Structure
 
