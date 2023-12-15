@@ -7,9 +7,7 @@ use web_sys::console; // For logging to the browser's console
 use wasm_bindgen::prelude::*;
 use js_sys::JsString; // For handling JavaScript strings in Rust
 
-// Define your app's global style, route switch, and contexts here
-// These might be specific to your application's architecture.
-// For example:
+// Define your app's global style, route switch, and contexts here. For example:
 // use your_crate::styles::global_sty::global_style;
 // use your_crate::route::{switch, Route};
 // use your_crate::contexts::text_provider::TextProvider;
