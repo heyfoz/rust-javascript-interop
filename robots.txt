@@ -1,1 +1,28 @@
+# Allow specific bots
+User-agent: bingbot
+Allow: /
 
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: CFNetwork
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: Curl
+Allow: /
+
+# Disallow other bots
+User-agent: *
+Disallow: /
