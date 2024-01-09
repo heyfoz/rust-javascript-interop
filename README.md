@@ -54,6 +54,10 @@ To build and run the application:
 1. Navigate to the project directory.
 2. Use `trunk serve` (if using Trunk) or `wasm-pack build` (if using wasm-pack).
 
+For detailed examples of building with Cargo and serving with Trunk, including both Bash and PowerShell scripts, check out this repository: [Rust Cargo Build and Trunk Serve Examples](https://github.com/ffm5113/rust_cargo_build_trunk_serve).
+
+The provided repository contains practical examples to help you get started with the build and serve process on different platforms.
+
 ## Contributing
 
 Contributions are welcome. Follow these steps:
