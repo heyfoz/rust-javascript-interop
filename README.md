@@ -10,7 +10,7 @@ This project is a basic Rust client-side web application using the Yew framework
 - Inline JavaScript integration using `wasm_bindgen`
 - External JavaScript module import
 - Routing with `yew_router`
-- Atomic component structure: atoms, molecules, organisms
+- Atomic design component structure: atoms, molecules, organisms
 
 ## Prerequisites
 
