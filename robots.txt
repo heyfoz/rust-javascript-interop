@@ -1,3 +1,6 @@
+# This file is instructs web crawlers which parts of the site should not be crawled or indexed.
+# Disclaimer: Compliance with robots.txt is voluntary; it does not enforce but merely requests bots to respect the site's crawling preferences.
+
 # Allow specific bots
 User-agent: bingbot
 Allow: /
