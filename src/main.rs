@@ -7,13 +7,12 @@ use web_sys::console; // For logging to the browser's console
 use wasm_bindgen::prelude::*;
 use js_sys::JsString; // For handling JavaScript strings in Rust
 
-// Define your app's global style, route switch, and contexts here. For example:
-// use yew_javascript_interop_example::global_style::global_style;
+// Define your app's global style, route switch, and contexts here.
+use yew_javascript_interop_example::global_style::global_style;
 // use yew_javascript_interop_example::route::{switch, Route};
 // use yew_javascript_interop_example::contexts::text_provider::TextProvider;
 
-// Inline JavaScript function example
-// This function is written in JavaScript and embedded directly in Rust.
+// Inline JavaScript function example embedded directly in Rust.
 // It gets the 'session_id' from the URL's query parameters or returns 'ID_NOT_FOUND' if not present.
 #[wasm_bindgen(inline_js = "
     export function getSessionId1() {
@@ -25,10 +24,9 @@ extern "C" {
     fn getSessionId1() -> JsString;
 }
 
-// Imported JavaScript function example
-// This function is defined in a separate JavaScript file, which should be located in your project's directory.
+// Imported JavaScript function example defined in a separate JavaScript file, located in your project's directory.
 // Note: The file will be moved to the 'snippets' folder during the build process if using `cargo build`.
-#[wasm_bindgen(module = "/session.js")]
+#[wasm_bindgen(module = "/session2.js")]
 extern "C" {
     fn getSessionId2() -> JsString;
 }
@@ -47,7 +45,7 @@ pub fn app() -> Html {
     html! {
         <>
             <BrowserRouter>
-                <Global css={/* global_style() */} />
+                <Global css={ global_style() } />
                 <Switch<Route> render={switch} />
             </BrowserRouter>
         </>
