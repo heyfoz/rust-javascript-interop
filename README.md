@@ -19,11 +19,11 @@ Before starting, ensure you have installed:
 - [Trunk](https://trunkrs.dev/#install) (optional, for building and bundling)
 - [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) (for development on Windows)
   
-## Project Structure
+## Project Structure with same JavaScript Function in 3 Examples
 
-- `/src/main.rs`: Main entry point for the Yew application
+- `/src/main.rs`: Main entry point for the Yew application containing inline JavaScript session ID retrieval
 - `/session2.js`: External JavaScript file for session ID retrieval
-- `/src/static/session3.js`: Internal JavaScript file imported for session ID retrieval
+- `/src/static/session3.js`: Internal JavaScript file exmple imported for session ID retrieval
 
 ## Dependencies
 
