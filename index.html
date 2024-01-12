@@ -9,6 +9,7 @@
 
     <title>Rust JavaScript Interop App Example</title>
 
+    <!-- Move files from project dir to Dist dir on trunk serve -->
     <link data-trunk rel="copy-dir" href="./src/static/images">
     <link data-trunk rel="copy-file" href="./src/text1.json">
     <link data-trunk rel="copy-file" href="./src/text2.json">
@@ -16,14 +17,17 @@
 
     <!-- Scripts -->
     <script data-trunk src="./src/static/session3.js" defer></script>
-
+    <!-- Preload wasm and js files -->
+    <link rel="preload" href="/yew_javascript_interop_example-HASHID_FROM_CARGO_BUILD_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+    <link rel="modulepreload" href="/yew_javascript_interop_example-HASHID_FROM_CARGO_BUILD.js">
 
 </head>
 
 <body>
+    <!-- Script to import wasm and js files -->
     <script type="module">
-
+        import init from '/yew_javascript_interop_example-HASHID_FROM_CARGO_BUILD.js';
+        init('/yew_javascript_interop_example-HASHID_FROM_CARGO_BUILD.wasm');
     </script>
 </body>
 </html>
-
