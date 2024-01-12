@@ -1,1 +1,13 @@
+{
+    "en": {
+      "string_1": "Hello World!",
+      "string_2": "This is an open-source Rust project example!",
+      "string_3": "It provides examples of a web application in multiple languages.",
+    }
 
+  "es": {
+    "string_1": "¡Hola Mundo!",
+    "string_2": "¡Este es un ejemplo de proyecto Rust de código abierto!",
+    "string_3": "Proporciona ejemplos de una aplicación web en varios idiomas."
+  }
+}
