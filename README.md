@@ -56,7 +56,8 @@ crate-type = ["cdylib", "rlib"]
 To build and run the application:
 
 1. Navigate to the project directory.
-2. Use `trunk serve` (if using Trunk) or `wasm-pack build` (if using wasm-pack).
+2. Use 'carg build' for initial compile.
+3. Then, use `trunk serve` (if using Trunk) or `wasm-pack build` (if using wasm-pack) to prepare for serving.
 
 For detailed examples of building with Cargo and serving with Trunk, including both Bash and PowerShell scripts, check out this repository: [Rust Cargo Build and Trunk Serve Examples](https://github.com/ffm5113/rust_cargo_build_trunk_serve).
 
