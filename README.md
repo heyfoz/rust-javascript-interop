@@ -4,7 +4,9 @@
 
 This Rust-based web application, multilingual (EN, ES) and client-side, is developed using the Yew framework. It demonstrates JavaScript-Rust interoperability for session ID retrieval from URLs, employing both inline and external JavaScript methods. 
 
-The project also features embedded CSS within Rust, showcasing front-end styling capabilities in the Rust ecosystem. Compiled to WebAssembly (wasm) using cargo build, it represents a modern approach to web app development. NOTE: Dependencies and packages may evolve over time.
+The project also features embedded CSS within Rust, showcasing front-end styling capabilities in the Rust ecosystem. Compiled to WebAssembly (wasm) using cargo build, it represents a modern approach to web app development. 
+
+NOTE: Dependencies and packages may evolve over time.
 
 ## Features
 
