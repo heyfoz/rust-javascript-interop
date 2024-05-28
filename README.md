@@ -17,6 +17,7 @@ NOTE: Dependencies and packages may evolve over time.
 - Rust Yew Framework for WebAssembly web applications
 - Inline JavaScript integration using `wasm_bindgen`
 - External JavaScript module import
+- Example of embedded CSS with Yew
 - Routing with `yew_router`
 - Atomic design component structure: atoms, molecules, organisms
 
