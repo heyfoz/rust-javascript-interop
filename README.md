@@ -2,9 +2,13 @@
 
 ## Project Overview
 
-This Rust-based web application, multilingual (EN, ES) and client-side, is developed using the Yew framework. It demonstrates JavaScript-Rust interoperability for session ID retrieval from URLs, employing both inline and external JavaScript methods. 
+This Rust-based, multilingual (EN, ES), client-side web application is developed using the Yew framework. It demonstrates JavaScript-Rust interoperability for session ID retrieval from URLs, employing both inline and external JavaScript methods. This represents a modern approach to web app development, leveraging both Rust and JavaScript.
 
-The project also features embedded CSS within Rust in [global_style.rs](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/styles/global_style.rs), showcasing front-end styling capabilities in the Rust ecosystem. Compiled to WebAssembly (wasm) using cargo build, it represents a modern approach to web app development. 
+The project also features embedded CSS within Rust in [global_style.rs](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/styles/global_style.rs), showcasing front-end styling capabilities in the Rust ecosystem. 
+
+First, the project is compiled using cargo build, which compiles the Rust code and its dependencies into WebAssembly (wasm). 
+
+Next, the trunk serve command is used to build and bundle the project. This step creates a dist folder containing the WebAssembly (package_name-unique_hash_bg.wasm) and JavaScript (package_name-unique_hash.js) files, packaging everything needed for deployment. 
 
 NOTE: Dependencies and packages may evolve over time.
 
@@ -76,6 +80,3 @@ Contributions are welcome. Follow these steps:
 ## License
 
 This project is under the [MIT License](LICENSE).
-
-
-
