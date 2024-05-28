@@ -16,7 +16,7 @@ NOTE: Dependencies and packages may evolve over time.
 
 - Atomic design component structure: atoms, molecules, organisms
 - Inline JavaScript integration using [wasm_bindgen](https://docs.rs/wasm-bindgen/latest/wasm_bindgen/)
-- External JavaScript module import
+- External JavaScript module import in [main.rs](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/main.rs)
 - Example of embedded CSS with Yew in [global_style.rs](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/styles/global_style.rs)
 - Routing with [yew_router](https://yew.rs/docs/concepts/router)
 - Language localization support with [text1.json](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/text1.json) providing text for multiple languages
