@@ -4,7 +4,7 @@
 
 This Rust-based, multilingual (EN, ES), client-side web application is developed using the Yew framework. It demonstrates JavaScript-Rust interoperability for session ID retrieval from URLs, employing both inline and external JavaScript methods. This represents a modern approach to web app development, leveraging both Rust and JavaScript.
 
-The project also features embedded CSS within Rust in [global_style.rs](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/styles/global_style.rs), showcasing front-end styling capabilities in the Rust ecosystem. 
+The project also features embedded CSS within Rust, showcasing front-end styling capabilities in the Rust ecosystem. 
 
 First, the project is compiled using cargo build, which compiles the Rust code and its dependencies into WebAssembly (wasm). 
 
@@ -14,12 +14,13 @@ NOTE: Dependencies and packages may evolve over time.
 
 ## Features
 
-- Rust Yew Framework for WebAssembly web applications
-- Inline JavaScript integration using `wasm_bindgen`
-- External JavaScript module import
-- Example of embedded CSS with Yew
-- Routing with `yew_router`
 - Atomic design component structure: atoms, molecules, organisms
+- Inline JavaScript integration using [wasm_bindgen](https://docs.rs/wasm-bindgen/latest/wasm_bindgen/)
+- External JavaScript module import
+- Example of embedded CSS with Yew in [global_style.rs](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/styles/global_style.rs)
+- Routing with [yew_router](https://yew.rs/docs/concepts/router)
+- Language localization support with [text1.json](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/text1.json) providing text for multiple languages
+- Text localization using [text_provider.rs](https://github.com/ffm5113/rust_javascript_interop/blob/main/src/contexts/text_provider.rs) to pull the appropriate text dynamically
 
 ## Prerequisites
 
